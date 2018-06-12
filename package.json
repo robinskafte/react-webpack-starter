@@ -4,7 +4,8 @@
   "description": "A starter package for React + Webpack + ES6",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,40 @@
   "bugs": {
     "url": "https://github.com/robinskafte/react-webpack-starter/issues"
   },
-  "homepage": "https://github.com/robinskafte/react-webpack-starter#readme"
+  "homepage": "https://github.com/robinskafte/react-webpack-starter#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "styled-components": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.0",
+    "react-hot-loader": "^4.3.1",
+    "sass-extract": "^2.1.0",
+    "sass-extract-js": "^0.3.0",
+    "sass-extract-loader": "^1.1.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.4",
+    "webpack-dev-server": "^3.1.4"
+  }
 }

@@ -21,7 +21,7 @@
 git clone https://github.com/robinskafte/react-webpack-starter.git
 
 # Change directory to the repo
-cd cd react-webpack-starter
+cd react-webpack-starter
 
 # Install the repository with npm
 npm install
